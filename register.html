@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Boda Covid Registration</title>
+    <link rel="stylesheet" href="./dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="./dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./dist/css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="./dist/css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Boda Client Registration</h1>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div>
+                    <div>
+                        <form action="#" name="register" class="needs-validation" novalidate>
+                            <div>
+                                <p>Name: <br />
+                                    <input type="text" name="firstName" placeholder="First Name">
+                                    <input type="text" name="lastName" placeholder="Last Name">
+                                </p>
+                            </div>
+
+                            <div>
+                                <div class="input-group has-validation">
+                                    <label for="Address" class="form-label">Address:</label> <br />
+                                    <span class="input-group-text"></span>
+                                    <input type="text" class="form-control" id="adress" placeholder="Address">
+
+                                    <label for="Address" class="form-label">Temperature:</label>
+                                    <input type="text" class="form-control" id="temp" placeholder="Temperature">
+                                </div>
+                            </div>
+
+                            <div class="form">
+                                <label for="vaccinationstatus" class="form-label">Vaccination Status:</label>
+                                <input type="radio" name="status" id="" value="vaccinated">Vaccinated
+                                <input type="radio" name="status" id="" value="not vaccinated">Not Vaccinated
+                            </div>
+
+                            <div>
+                                <label for="gender" class="form-label">Gender:</label>
+                                <input type="radio" name="status" id="" value="male">Male
+                                <input type="radio" name="status" id="" value="female">Female
+                            </div>
+
+                            <div class="input-group has-validation">
+                                <span class="input-group-text">+256</span>
+                                <input type="telephone" class="form-control" id="telephone" placeholder="0752345678"
+                                    value="" required>
+                            </div>
+
+                            <div>
+                                <div class="input-group has-validation">
+                                    <span class="input-group-text"></span>
+                                    <select class="form-select" id="region" required>
+                                        <option value="">Nationality</option>
+                                        <option>Ugandan</option>
+                                        <option>Foreigner</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="input-group has-validation">
+                                <label for="NIN" class="form-label">NIN/Passport Number</label>
+                                <span class="input-group-text"></span>
+                                <input type="text" class="form-control" id="adress" placeholder="">
+                                <div>
+
+                                    <button type="button" class="btn btn-secondary"
+                                        onclick="validation()">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="col-md-6">
+        <img src="boda.jpg">
+    </div>
+
+    <!-- <script src="./dist/js/bootstrap.bundle.js"></script>
+    <script src="./dist/js/bootstrap.js"></script> -->
+    <script src="register.js ">
+
+    </script>
+</body>
+
+</html>
