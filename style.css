@@ -6,7 +6,7 @@ form-name {
 }
 
 body {
-    background-color: white;
+    background-color: rgb(211, 235, 234,);
     color: antiquewhite;
     display: flex;
     justify-content: center;
@@ -17,14 +17,14 @@ body {
 .container {
     position: absolute;
     width: 60%;
-    background-color: white;
+    background-color:rgba(84, 206, 236, 0.918);;
     border: 2px solid cornflowerblue;
     display: flex;
     border-radius: 30px;
     justify-content: center;
     padding: 25px;
     margin: 8% auto 0;
-    height: 480px;
+    height: 500px;
     
 }
 .col-md-6{
@@ -44,12 +44,18 @@ img{
 }
 .heading{
     color: cornflowerblue;
-    margin-top: 20px;
+    margin-top: 26px;
 }
 
 .btn {
     /* border-radius: ; */
-    width: 50%;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    background-color: rgb(115, 180, 241);
+    width: 200px;
     height: auto;
-    
+    border-radius: 6px;
+}
+#region {
+    width: 30px;
 }

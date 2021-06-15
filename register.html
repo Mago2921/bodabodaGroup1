@@ -21,72 +21,62 @@
 
     <div class="container">
         <div class="row">
-              <div class="col-md-6">
+            <div class="col-md-6">
                 <img src="boda.jpg">
             </div>
 
             <div class="col-md-6">
 
                 <!-- <div> -->
-                    <div>
-                        <form action="#" name="register" class="needs-validation" novalidate>
-                            <div>
-                                <p><strong>Name</strong><br />
-                                    <input type="text" name="firstName" placeholder="First Name">
-                                    <input type="text" name="lastName" placeholder="Last Name">
-                                </p>
-                            </div>
+                <div>
+                    <form action="#" name="register" class="needs-validation" novalidate>
+                        <div>
+                            <p><strong>Name</strong><br />
+                                <input type="text" name="firstName" placeholder="First Name">
+                                <input type="text" name="lastName" placeholder="Last Name">
+                            </p>
+                        </div>
 
-                                <div class="input-group has-validation">
-                                    <label for="Address" class="form-label"><strong>Address</strong></label> <br />
-                                    <span class="input-group-text"></span>
-                                    <input type="text" class="form-control" id="adress" placeholder="Address"><br> <br>
-
-                                    <label for="Address" class="form-label"><strong>Temperature</strong></label><br>
-                                    <input type="text" class="form-control" id="temp" placeholder="Temperature">
-                                </div> <br>
-
-                            <div class="form">
-                                <label for="vaccinationstatus" class="form-label"><strong>Status:</strong></label> <br>
-                                <input type="radio" name="status" id="" value="vaccinated">Vaccinated <br>
-                                <input type="radio" name="status" id="" value="not vaccinated">Not Vaccinated
-                            </div> <br>
-
-                            <div>
-                                <label for="gender" class="form-label"><strong>Gender:</strong></label> <br>
-                                <input type="radio" name="status" id="" value="male">Male <br>
-                                <input type="radio" name="status" id="" value="female">Female
-                            </div> <br>
+                        <div class="input-group has-validation">
+                            <label for="Address" class="form-label"><strong>Address</strong></label> <br />
+                            <span class="input-group-text"></span>
+                            <input type="text" class="form-control" id="adress" placeholder="Address"><br> <br>
 
                             <div class="input-group has-validation">
-                                <span class="input-group-text">+256</span>
+                                <label for="phone" class="form-label"><strong>Telephone Number</strong></label> <br />
                                 <input type="telephone" class="form-control" id="telephone" placeholder="0752345678"
                                     value="" required>
                             </div> <br>
 
-                            <div>
-                                <div class="input-group has-validation">
-                                    <span class="input-group-text"></span>
-                                    <select class="form-select" id="region" required>
-                                        <option value="">Nationality</option>
-                                        <option>Ugandan</option>
-                                        <option>Foreigner</option>
-                                    </select>
-                                </div>
-                            </div> <br>
                             <div class="input-group has-validation">
-                                <label for="NIN" class="form-label" style="font-size: 15px;">NIN/Passport Number</label>
+                                <label for="NIN" class="form-label" id=""><strong>NIN/Passport Number</strong></label> <br>
                                 <span class="input-group-text"></span>
                                 <input type="text" class="form-control" id="adress" placeholder="">
                                 <div> <br>
 
-                                    <button type="button" class="btn btn-secondary" >Submit</button>
-                        </form>
-                    </div>
+                            <label for="Address" class="form-label" id="temp"><strong>Temperature</strong></label><br>
+                            <input type="text" class="form-control" placeholder="Temperature">
+                        </div> <br>
+
+                        <div class="form">
+                            <label for="vaccinationstatus" class="form-label"><strong>Status:</strong></label> <br>
+                            <input type="radio" name="status" id="" value="vaccinated">Vaccinated <br>
+                            <input type="radio" name="status" id="" value="not vaccinated">Not Vaccinated
+                        </div> <br>
+
+                        <div>
+                            <label for="gender" class="form-label"><strong>Gender:</strong></label> <br>
+                            <input type="radio" name="status" id="" value="male">Male <br>
+                            <input type="radio" name="status" id="" value="female">Female
+                        </div> <br/>
+
+                         <button type="button" class="btn btn-secondary">Submit</button>
+                    </form>
                 </div>
             </div>
-
         </div>
+
+    </div>
     </div>
 
     <!-- <script src="./dist/js/bootstrap.bundle.js"></script>
