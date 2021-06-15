@@ -22,67 +22,84 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <img src="boda.jpg">
-            </div>
-
-            <div class="col-md-6">
-
-                <!-- <div> -->
-                <div>
+                <div class="form-a">
                     <form action="#" name="register" class="needs-validation" novalidate>
-                        <div>
-                            <p><strong>Name</strong><br />
-                                <input type="text" name="firstName" placeholder="First Name">
-                                <input type="text" name="lastName" placeholder="Last Name">
-                            </p>
+                        <div class="row g-3">
+                            <div class="col-12">
+                                    <label><strong>Name</strong></label>
+                                    <div class="input-group has-validation">
+                                        <span class="input-group-text"></span>
+                                        <input type="text" class="form-control" id="nin" placeholder="">
+                                    </div>
+                            </div>
+
+                         <div class="col-12">
+                            <label><strong>National ID Number</strong></label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text"></span>
+                                <input type="text" class="form-control" id="nin" placeholder="">
+                            </div>
+                         </div>
+
+                         <div class="col-sm-4">
+                            <label for="gender" class="form-label"><strong>Gender:</strong></label>
+                            <select name="gender" id="gender">
+                                <option value="">Male</option>
+                                <option value="">Female</option>
+                            </select>
                         </div>
 
-                        <div class="input-group has-validation">
-                            <label for="Address" class="form-label"><strong>Address</strong></label> <br />
-                            <span class="input-group-text"></span>
-                            <input type="text" class="form-control" id="adress" placeholder="Address"><br> <br>
+                         <div class="col-sm-4">
+                                <label id="temp"><strong>Temperature</strong></label>
+                                <input type="text" class="form-control" placeholder="36.0">   
+                            </div>
+                     
+                            <div class="col-sm-6">
+                                    <label id="temp"><strong>Time Of Departure</strong></label>
+                                    <input type="time" class="form-control" name="" placeholder="Departure" required>
+              
+                                </div>
+                                <div class="col-sm-6">
+                                        <label id="temp"><strong>Time Of Arival</strong></label>
+                                        <input type="time" class="form-control" name="" placeholder="Arrival" required>
+                  
+                                </div>
+                                <div class="col-sm-6">
+                                        <label id="temp"><strong>Destination</strong></label>
+                                        <input type="text" class="form-control" name="" placeholder="To" required>
+                                    </div>
+                                    <div class="col-sm-6">
+                                            <label id="temp"><strong>Destination</strong></label>
+                                            <input type="text" class="form-control" name="" placeholder="From" required>
+                      
+                                        </div>
 
-                            <div class="input-group has-validation">
-                                <label for="phone" class="form-label"><strong>Telephone Number</strong></label> <br />
-                                <input type="telephone" class="form-control" id="telephone" placeholder="0752345678"
-                                    value="" required>
-                            </div> <br>
-
-                            <div class="input-group has-validation">
-                                <label for="NIN" class="form-label" id=""><strong>NIN/Passport Number</strong></label> <br>
-                                <span class="input-group-text"></span>
-                                <input type="text" class="form-control" id="adress" placeholder="">
-                                <div> <br>
-
-                            <label for="Address" class="form-label" id="temp"><strong>Temperature</strong></label><br>
-                            <input type="text" class="form-control" placeholder="Temperature">
-                        </div> <br>
-
-                        <div class="form">
+                         <div class="form">
                             <label for="vaccinationstatus" class="form-label"><strong>Status:</strong></label> <br>
                             <input type="radio" name="status" id="" value="vaccinated">Vaccinated <br>
                             <input type="radio" name="status" id="" value="not vaccinated">Not Vaccinated
-                        </div> <br>
+                         </div> 
 
-                        <div>
-                            <label for="gender" class="form-label"><strong>Gender:</strong></label> <br>
-                            <input type="radio" name="status" id="" value="male">Male <br>
-                            <input type="radio" name="status" id="" value="female">Female
-                        </div> <br/>
 
-                         <button type="button" class="btn btn-secondary">Submit</button>
+                         <button type="button" class="btn btn-secondary" value="buttonText">Submit</button>
+                        </div>
                     </form>
+                    <span class="text-muted">&copy; Group1.</span>
+
                 </div>
             </div>
+            <div class="col-md-6"><img src="boda.jpg"></div>
         </div>
 
     </div>
-    </div>
+
+
+
+
 
     <!-- <script src="./dist/js/bootstrap.bundle.js"></script>
     <script src="./dist/js/bootstrap.js"></script> -->
     <script src="register.js ">
-
     </script>
 </body>
 

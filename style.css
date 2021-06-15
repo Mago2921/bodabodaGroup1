@@ -14,19 +14,23 @@ body {
     font-family: Verdana, Geneva, sans-serif;
 }
 
+
 .container {
     position: absolute;
-    width: 60%;
-    background-color:rgba(84, 206, 236, 0.918);;
-    border: 2px solid cornflowerblue;
+    background-color:#f5f5ff;
+    width: 1000px;
     display: flex;
     border-radius: 30px;
     justify-content: center;
-    padding: 25px;
+    padding: 20px;
     margin: 8% auto 0;
-    height: 500px;
-    
+    height: 600px;
+
 }
+.form-a{
+    margin: 5px;
+    padding: 10px;
+}    
 .col-md-6{
     float: left;
     width: 50%;
