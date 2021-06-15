@@ -21,45 +21,48 @@
 
     <div class="container">
         <div class="row">
+              <div class="col-md-6">
+                <img src="boda.jpg">
+            </div>
+
             <div class="col-md-6">
-                <div>
+
+                <!-- <div> -->
                     <div>
                         <form action="#" name="register" class="needs-validation" novalidate>
                             <div>
-                                <p>Name: <br />
+                                <p><strong>Name</strong><br />
                                     <input type="text" name="firstName" placeholder="First Name">
                                     <input type="text" name="lastName" placeholder="Last Name">
                                 </p>
                             </div>
 
-                            <div>
                                 <div class="input-group has-validation">
-                                    <label for="Address" class="form-label">Address:</label> <br />
+                                    <label for="Address" class="form-label"><strong>Address</strong></label> <br />
                                     <span class="input-group-text"></span>
-                                    <input type="text" class="form-control" id="adress" placeholder="Address">
+                                    <input type="text" class="form-control" id="adress" placeholder="Address"><br> <br>
 
-                                    <label for="Address" class="form-label">Temperature:</label>
+                                    <label for="Address" class="form-label"><strong>Temperature</strong></label><br>
                                     <input type="text" class="form-control" id="temp" placeholder="Temperature">
-                                </div>
-                            </div>
+                                </div> <br>
 
                             <div class="form">
-                                <label for="vaccinationstatus" class="form-label">Vaccination Status:</label>
-                                <input type="radio" name="status" id="" value="vaccinated">Vaccinated
+                                <label for="vaccinationstatus" class="form-label"><strong>Status:</strong></label> <br>
+                                <input type="radio" name="status" id="" value="vaccinated">Vaccinated <br>
                                 <input type="radio" name="status" id="" value="not vaccinated">Not Vaccinated
-                            </div>
+                            </div> <br>
 
                             <div>
-                                <label for="gender" class="form-label">Gender:</label>
-                                <input type="radio" name="status" id="" value="male">Male
+                                <label for="gender" class="form-label"><strong>Gender:</strong></label> <br>
+                                <input type="radio" name="status" id="" value="male">Male <br>
                                 <input type="radio" name="status" id="" value="female">Female
-                            </div>
+                            </div> <br>
 
                             <div class="input-group has-validation">
                                 <span class="input-group-text">+256</span>
                                 <input type="telephone" class="form-control" id="telephone" placeholder="0752345678"
                                     value="" required>
-                            </div>
+                            </div> <br>
 
                             <div>
                                 <div class="input-group has-validation">
@@ -70,26 +73,20 @@
                                         <option>Foreigner</option>
                                     </select>
                                 </div>
-                            </div>
+                            </div> <br>
                             <div class="input-group has-validation">
-                                <label for="NIN" class="form-label">NIN/Passport Number</label>
+                                <label for="NIN" class="form-label" style="font-size: 15px;">NIN/Passport Number</label>
                                 <span class="input-group-text"></span>
                                 <input type="text" class="form-control" id="adress" placeholder="">
-                                <div>
+                                <div> <br>
 
-                                    <button type="button" class="btn btn-secondary"
-                                        onclick="validation()">Submit</button>
+                                    <button type="button" class="btn btn-secondary" >Submit</button>
                         </form>
                     </div>
                 </div>
             </div>
 
         </div>
-    </div>
-
-
-    <div class="col-md-6">
-        <img src="boda.jpg">
     </div>
 
     <!-- <script src="./dist/js/bootstrap.bundle.js"></script>
