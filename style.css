@@ -15,6 +15,7 @@ body {
 }
 
 
+
 .container {
     position: absolute;
     background-color:#f5f5ff;
@@ -24,7 +25,7 @@ body {
     justify-content: center;
     padding: 20px;
     margin: 8% auto 0;
-    height: 600px;
+    height: 650px;
 
 }
 .form-a{
@@ -36,10 +37,11 @@ body {
     width: 50%;
 }
 img{
-    height: 480px;
+    height: 500px;
     max-width: 100%;
-    border-radius: 5%;
-}
+    padding: 30px
+    border-radius: 5%;}
+    
 .needs-validation{
     color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -56,9 +58,10 @@ img{
     margin-bottom: 40px;
     margin-left: 40px;
     background-color: rgb(115, 180, 241);
-    width: 200px;
     height: auto;
-    border-radius: 6px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px gray;
+    width: 80px;
 }
 #region {
     width: 30px;

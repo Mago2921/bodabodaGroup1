@@ -1,1 +1,40 @@
-<
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BodaBoda registration form</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+  
+  </head>
+  <body>  
+    <div class="main-block">
+      <form action="#">
+        <div class="title">
+          <h2>KamuKamu Boda Registration Form</h2>
+        </div>
+        <div class="info">
+                <input type="text" name="df" placeholder="Destination From"> 
+                <input type="text" name="dt" placeholder="Destination To">  
+                <input type="text" name="tod" placeholder="Time of Departure" onclick="(this.type='time')">
+                <input type="text" name="toa" placeholder="Time of Arrival"  onclick="(this.type='time')">
+          <input class="fname" type="text" name="name" placeholder="Enter your Name">
+          <input type="text" name="name" placeholder="Phone number">
+
+          <select>
+            <option value="course-type" selected>Gender</option>
+            <option value="short-courses">Female</option>
+            <option value="featured-courses">Male</option>
+          </select>
+        </div>
+        <div class="checkbox">
+          <input type="checkbox" name="checkbox"><span>Have you Been Vaccinated?</span>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+     
+      <span class="copyright">&copy;Designed by Group1.</span>
+    </div>
+    <script src="register.js"></script>
+  </body>
+</html>

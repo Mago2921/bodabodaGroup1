@@ -10,8 +10,10 @@
     <link rel="stylesheet" href="./dist/css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="./dist/css/bootstrap-utilities.css">
     <link rel="stylesheet" href="./dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./dist/css/bootstrap.min.css/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 
 <body>
     <div class="heading">
@@ -26,23 +28,22 @@
                     <form action="#" name="register" class="needs-validation" novalidate>
                         <div class="row g-3">
                             <div class="col-12">
-                                    <label><strong>Name</strong></label>
-                                    <div class="input-group has-validation">
-                                        <span class="input-group-text"></span>
-                                        <input type="text" class="form-control" id="nin" placeholder="">
-                                    </div>
-                            </div>
-
+                            
+                                 <div class="input-group has-validation">
+                                    <span class="input-group-text"></span>
+                                    <input type="text" pattern="/D/D/D/D/D/D/D" class="form-control" id="name" placeholder="Enter your Name">
+                                </div>
+                            </div> 
                          <div class="col-12">
-                            <label><strong>National ID Number</strong></label>
+                    
                             <div class="input-group has-validation">
-                                <span class="input-group-text"></span>
-                                <input type="text" class="form-control" id="nin" placeholder="">
+                                <span class="input-group-text">NIN</span>
+                                <input type="text" class="form-control" id="nin" placeholder="Passport Number">
                             </div>
                          </div>
 
                          <div class="col-sm-4">
-                            <label for="gender" class="form-label"><strong>Gender:</strong></label>
+                           <input type="text"> <label for="gender" class="form-label"><strong>Gender:</strong></label>
                             <select name="gender" id="gender">
                                 <option value="">Male</option>
                                 <option value="">Female</option>
@@ -50,18 +51,17 @@
                         </div>
 
                          <div class="col-sm-4">
-                                <label id="temp"><strong>Temperature</strong></label>
-                                <input type="text" class="form-control" placeholder="36.0">   
+                                <input type="text" class="form-control" placeholder="Temperature">   
                             </div>
                      
                             <div class="col-sm-6">
-                                    <label id="temp"><strong>Time Of Departure</strong></label>
-                                    <input type="time" class="form-control" name="" placeholder="Departure" required>
+                                
+                                    <input type="time" class="form-control" name="" placeholder=" Time of Departure" required>
               
                                 </div>
                                 <div class="col-sm-6">
                                         <label id="temp"><strong>Time Of Arival</strong></label>
-                                        <input type="time" class="form-control" name="" placeholder="Arrival" required>
+                                        <input type="time" class="form-control" name="" placeholder="Time of Arrival" required>
                   
                                 </div>
                                 <div class="col-sm-6">
@@ -73,6 +73,15 @@
                                             <input type="text" class="form-control" name="" placeholder="From" required>
                       
                                         </div>
+
+
+                                        <div class="col-12">
+                                            <label><strong>Telephone Number</strong></label>
+                                            <div class="input-group has-validation">
+                                                <span class="input-group-text">256</span>
+                                                <input type="telephone" pattern="\d\d\d-\d\d\d-\d\d\d\d" class="form-control" id="contact"value="" placeholder="">
+                                            </div>
+                                         </div>
 
                          <div class="form">
                             <label for="vaccinationstatus" class="form-label"><strong>Status:</strong></label> <br>
@@ -93,11 +102,7 @@
 
     </div>
 
-
-
-
-
-    <!-- <script src="./dist/js/bootstrap.bundle.js"></script>
+    <!-- =<script src="./dist/js/bootstrap.bundle.js"></script>
     <script src="./dist/js/bootstrap.js"></script> -->
     <script src="register.js ">
     </script>
