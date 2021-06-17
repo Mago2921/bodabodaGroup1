@@ -6,22 +6,57 @@
 }
 
 body {
-    background-color: #2b0707;
-    color: antiquewhite;
+    background-color: rgb(211, 235, 234);
+    color: black;
     display: flex;
     justify-content: center;
     align-content: center;
     font-family: Verdana, Geneva, sans-serif;
+    opacity: 0.9;
+    background-image:url(./boda.jpg);
+    background-repeat: no-repeat;
+  background-size: 75% 5
+    
+    
+    
 }
 
 .container {
     position: absolute;
     width: 500px;
-    background-color: #462f12;
+    background-color: rgba(84, 206, 236, 0.918);
     border: 2px solid antiquewhite;
     display: flex;
     border-radius: 30px;
     justify-content: center;
     padding: 25px;
     margin: 8% auto 0;
+    font-family: 'Poppins', sans-serif;
+    
+    
+}
+
+/* input {
+    Opacity:0.9; 
+} */
+   
+
+.heading{
+    margin-top: 55px;
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+font-family: 'Poppins', sans-serif;
+
+}
+
+.btn{
+    margin: 10px auto 10px auto;
+    background-color: rgb(115, 180, 241);
+    width: 100px;
+    height: auto;
+    border-radius: 6px;
+
+
 }
